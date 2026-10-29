@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinépolis — Book Tonight</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+    <div class="web-page">
+        <div class="navbar-back">
+            <div class="navbar">
+                <div class="navbar-left">
+                    <p class="dot">●</p>
+                    <p class="title">Cinépolis</p>
+                </div>
+                <div class="navbar-right">
+                    <p class="nav-links toyellow">Now Playing</p>
+                    <p class="nav-links toyellow">Book</p>
+                    <p class="nav-links toyellow">Showtimes</p>
+                    <button class="btn toyellow">Hi, Prince</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-section-back">
+            <div class="hero-section">
+                <div class="hero-left">
+                    <p class="top-text">★ Premiere · In theatres now</p>
+                    <div class="movie-name">
+                        <p class="m1">Money  </p>
+                        <p class="m2">Heist</p>
+                    </div>
+                    <div class="details">
+                        <p>5 Seasons</p>
+                        <p>·</p>
+                        <p>Thriller</p>
+                        <p>·</p>
+                        <p>U/A 16+</p>
+                        <p>·</p>
+                        <span class="rating">★ 8.2</span>
+                    </div>
+                    <div class="story">A retired beekeeper returns to her family's abandoned orchard and finds<br>
+                        something
+                        — someone — waiting in the rows of pear trees. A slow,<br>hushed mystery from director Lena Ó
+                        Conaill.</div>
+                    <p class="hero-down">
+                        <button class="book-btn">Book Tickets →</button>
+                        <a class="trailer-anchor"href="https://www.youtube.com/watch?v=_InqQJRqGW4&pp=ygUTbW9uZXkgaGVpc3QgdHJhaWxlcg%3D%3D" target ="_blank"><span class="trailer">▶ Watch trailer</span></a>
+                    </p>
+                </div>
+                <div class="hero-right">
+                    <div class="img-container">
+                        
+                    </div>
+                    <div class="m-name-in-container">Money Heist</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="now-playing-back">
+            <div class="now-playing-section">
+                <p class="nps-top-text">Now Playing</p>
+                <p class="film-count">this week · 6 films</p>
+            </div>
+            <div class="nps-card-section">
+                <div class="card" id="c1">
+                    <div class="nps-movie-img" id="c-i-1"></div>
+                    <div class="nps-content">
+                        <p class="nps-movie-name">Avengers: Infinity War</p>
+                        <p class="nps-details">Sci-Fi · 2h 29m · ★ 8.4</p>
+                    </div>
+                </div>
+                <div class="card" id="c2">
+                    <div class="nps-movie-img " id="c-i-2"></div>
+                    <div class="nps-content">
+                        <p class="nps-movie-name">Interstellar</p>
+                        <p class="nps-details">Sci-fi/Adventure · 2h 49m · ★ 8.7</p>
+                    </div>
+                </div>
+                <div class="card" id="c3">
+                    <div class="nps-movie-img" id="c-i-3"></div>
+                    <div class="nps-content">
+                        <p class="nps-movie-name">Dhurandhar The Revenge</p>
+                        <p class="nps-details">Adventure/Spy · 3h 49m · ★ 8.3</p>
+                    </div>
+                </div>
+                <div class="card" id="c4">
+                    <div class="nps-movie-img" id="c-i-4"></div>
+                    <div class="nps-content">
+                        <p class="nps-movie-name">Avatar: The Way of Water</p>
+                        <p class="nps-details">Sci-fi/Action · 3h 12m · ★ 7.5</p>
+                    </div>
+                </div>
+                <div class="card" id="c5">
+                    <div class="nps-movie-img" id="c-i-5"></div>
+                    <div class="nps-content">
+                        <p class="nps-movie-name">Dacoit </p>
+                        <p class="nps-details">Action/Thriller · 2h 29m · ★ 7.5</p>
+                    </div>
+                </div>
+                <div class="card" id="c6">
+                    <div class="nps-movie-img" id="c-i-6"></div>
+                    <div class="nps-content">
+                        <p class="nps-movie-name">K.G.F: Chapter 2</p>
+                        <p class="nps-details">Action/Thriller · 2h 48m · ★ 8.2</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="booking-section-back">
+            <div class="booking-section">
+                <div class="bs-left">
+                    <p class="bs-title"><span class="t1">Showtimes</span> <span class="t2">· The Last Orchard</span></p>
+                    <div class="bs-dates">
+                        <div class="date-container" id="d1">
+                            <span class="day">fri</span>
+                            <span class="date">14</span>
+                        </div>
+                        <div class="date-container d-selected" id="d2">
+                            <span class="day">sat</span>
+                            <span class="date">15</span>
+                        </div>
+                        <div class="date-container" id="d3">
+                            <span class="day">sun</span>
+                            <span class="date">16</span>
+                        </div>
+                        <div class="date-container" id="d4">
+                            <span class="day">mon</span>
+                            <span class="date">17</span>
+                        </div>
+                        <div class="date-container" id="d5">
+                            <span class="day">tue</span>
+                            <span class="date">18</span>
+                        </div>
+                        <div class="date-container" id="d6">
+                            <span class="day">wed</span>
+                            <span class="date">19</span>
+                        </div>
+                    </div>
+                    <div class="screen-details-container" id="screen1">
+                        <p class="screen-name">Auditorium 1 · IMAX</p>
+                        <div class="timing-container">
+                            <p class="s-timing">12:30</p>
+                            <p class="s-timing">15:10</p>
+                            <p class="s-timing running-out">18:45</p>
+                            <p class="s-timing finished">21:20</p>
+                        </div>
+
+                    </div>
+                    <div class="screen-details-container" id="screen2">
+                        <p class="screen-name">Auditorium 3 · Dolby</p>
+                        <div class="timing-container">
+                            <p class="s-timing">13:00</p>
+                            <p class="s-timing">16:00</p>
+                            <p class="s-timing">19:15</p>
+                            <p class="s-timing">22:00</p>
+                        </div>
+                    </div>
+                    <div class="screen-details-container" id="screen3">
+                        <p class="screen-name">Auditorium 6 · Standard</p>
+                        <div class="timing-container">
+                            <p class="s-timing t-selected">14:00</p>
+                            <p class="s-timing finished">17:30</p>
+                            <p class="s-timing">20:30</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bs-right">
+                    <p class="bs-right-top">Screen this way</p>
+
+                    <div class="bs-right-middle-top">
+                        <div class="bs-seat-alpha-section">
+                            <p class="bs-alpha">a</p>
+                            <p class="bs-alpha">b</p>
+                            <p class="bs-alpha">c</p>
+                            <p class="bs-alpha">d</p>
+                            <p class="bs-alpha">e</p>
+                            <p class="bs-alpha">f</p>
+
+                        </div>
+                        <div class="all-seats">
+                            <div class="bs-seats-column" id="bs-column1">
+                                <div class="row f-seats">
+                                    <div class="s-seat"></div>
+                                    <div class="s-seat"></div>
+                                    <div class="s-seat bs-sold"></div>
+                                    <div class="s-seat bs-sold"></div>
+                                </div>
+                                <div class="row f-seats">
+                                    <div class="s-seat"></div>
+                                    <div class="s-seat"></div>
+                                    <div class="s-seat"></div>
+                                    <div class="s-seat"></div>
+                                </div>
+                                <div class="row f-seats">
+                                    <div class="s-seat"></div>
+                                    <div class="s-seat bs-sold"></div>
+                                    <div class="s-seat bs-sold"></div>
+                                    <div class="s-seat"></div>
+                                </div>
+                                <div class="row f-seats">
+                                    <div class="s-seat"></div>
+                                    <div class="s-seat"></div>
+                                    <div class="s-seat"></div>
+                                    <div class="s-seat"></div>
+                                </div>
+                                <div class="row f-seats">
+                                    <div class="s-seat"></div>
+                                    <div class="s-seat"></div>
+                                    <div class="s-seat bs-sold"></div>
+                                    <div class="s-seat"></div>
+                                </div>
+                                <div class="row t-seats">
+                                    <div class="b-seat"></div>
+                                    <div class="b-seat"></div>
+                                    <div class="b-seat bs-sold"></div>
+                                </div>
+                            </div>
+                            <div class="bs-seats-column" id="bs-column2">
+                                <div class="row f-seats">
+                                    <div class="s-seat"></div>
+                                    <div class="s-seat bs-selected"></div>
+                                    <div class="s-seat bs-selected"></div>
+                                    <div class="s-seat"></div>
+                                </div>
+                                <div class="row f-seats">
+                                    <div class="s-seat bs-sold"></div>
+                                    <div class="s-seat"></div>
+                                    <div class="s-seat"></div>
+                                    <div class="s-seat"></div>
+                                </div>
+                                <div class="row f-seats">
+                                    <div class="s-seat"></div>
+                                    <div class="s-seat"></div>
+                                    <div class="s-seat"></div>
+                                    <div class="s-seat"></div>
+                                </div>
+                                <div class="row f-seats">
+                                    <div class="s-seat"></div>
+                                    <div class="s-seat"></div>
+                                    <div class="s-seat"></div>
+                                    <div class="s-seat"></div>
+                                </div>
+                                <div class="row f-seats">
+                                    <div class="s-seat"></div>
+                                    <div class="s-seat"></div>
+                                    <div class="s-seat"></div>
+                                    <div class="s-seat"></div>
+                                </div>
+                                <div class="row t-seats">
+                                    <div class="b-seat"></div>
+                                    <div class="b-seat"></div>
+                                    <div class="b-seat"></div>
+                                </div>
+                            </div>
+                            <div class="bs-seats-column" id="bs-column3">
+                                <div class="row f-seats">
+                                    <div class="s-seat"></div>
+                                    <div class="s-seat"></div>
+                                    <div class="s-seat"></div>
+                                    <div class="s-seat"></div>
+                                </div>
+                                <div class="row f-seats">
+                                    <div class="s-seat"></div>
+                                    <div class="s-seat"></div>
+                                    <div class="s-seat bs-sold"></div>
+                                    <div class="s-seat"></div>
+                                </div>
+                                <div class="row f-seats">
+                                    <div class="s-seat"></div>
+                                    <div class="s-seat"></div>
+                                    <div class="s-seat"></div>
+                                    <div class="s-seat"></div>
+                                </div>
+                                <div class="row f-seats">
+                                    <div class="s-seat bs-sold"></div>
+                                    <div class="s-seat bs-sold"></div>
+                                    <div class="s-seat"></div>
+                                    <div class="s-seat"></div>
+                                </div>
+                                <div class="row f-seats">
+                                    <div class="s-seat"></div>
+                                    <div class="s-seat"></div>
+                                    <div class="s-seat"></div>
+                                    <div class="s-seat bs-sold"></div>
+                                </div>
+                                <div class="row t-seats">
+                                    <div class="b-seat"></div>
+                                    <div class="b-seat"></div>
+                                    <div class="b-seat"></div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="availability-section">
+                        <div class="availability" id="bs-available">
+                            <div class="availability-box"> </div>
+                            <div class="availability-detail">Available</div>
+                        </div>
+                        <div class="availability" id="bs-selected">
+                            <div class="availability-box"> </div>
+                            <div class="availability-detail">Selected (2) </div>
+                        </div>
+                        <div class="availability" id="bs-sold">
+                            <div class="availability-box"> </div>
+                            <div class="availability-detail">sold</div>
+                        </div>
+                        <div class="availability" id="bs-recliner">
+                            <div class="availability-box"> </div>
+                            <div class="availability-detail">Recliner +€4</div>
+                        </div>
+
+                    </div>
+                    <div class="bs-right-bottom">
+                        <div class="bs-selected-seats-details">
+                            <div class="bs-selected-seats">2 × Standard · A6 & A7</div>
+                            <div class="bs-selected-seats-cost">€24.00</div>
+                        </div>
+                        <div class="proceed-payment-btn">proceed to payment →</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="end-bar-back">
+        <div class="end-bar-section">
+            <p class="ebs-left">
+                <span class="dot">●</span>
+                <span clas="ebs-end-title">&copy; Cinépolis 2026</span>
+            </p>
+            <p class="ebs-right">4 Auditoriums · IMAX · Dolby Atmos · Recliner</p>
+        </div>
+    </div>
+    </div>
+<script src="script.js"></script>
+</body>
+
+</html>
